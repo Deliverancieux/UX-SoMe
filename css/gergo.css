@@ -1,36 +1,17 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 
-main{
-    width: 768px;
-    height: 1195px;
-    position: relative;
-    background: -moz-linear-gradient(-95deg,  #0A101A 0%, #394354 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#0A101A),  color-stop(100%,#394354));
-    text-align: center;
-}
-.logo{
-    width: 157px;
-    margin-top: 20px;
-}
-span{
-    color: #DF616F;
-}
-h1{
-    font-family: 'Source Sans Pro';
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-}
-.backbutton{
-    position: fixed;
-    top: 25px;
-    left: 2%;
-    cursor: pointer;
 }
 section{
     display: flex;
     text-align: left;
     justify-content: space-between;
-    
+    margin: 25px;   
 }
 .number{
     margin-left: 10%;
@@ -40,12 +21,69 @@ section{
 p{
     font-family: 'Source Sans Pro';
     font-size: 25px;
-    color: white;
+    color: #F1F1F1;
     margin-right: 50px;
 }
 p2{
     font-family: 'Source Sans Pro';
     font-size: 25px;
-    color: white;
+    color: #F1F1F1;
     padding: 50px;
+}
+.whitespace{
+    height: 70px;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 362px 362px;
+    grid-column-gap: 44px;
+    grid-row-gap: 44px;
+    margin-top: 50px;
+}
+.gameoptionleft{
+    width: 362px;
+    height: 325px;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.gameoptionright{
+    width: 362px;
+    height: 325px;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.mixit{
+    background-color: #65CCEF;
+}
+.mixit_image{
+    margin: 20px 0 10px -20px;
+}
+.kahootlike{
+    background-color: #9BF2CB;
+}
+.kahootlike_image{
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+.fearpong{
+    background-color: #DF616F;
+}
+.fearpong_image{
+    margin: 20px 0 10px 0;
+}
+.boardgames{
+    background-color: #AF9BF2;
+}
+.boardgames_image{
+    margin: 20px 0 14px 0;
+}
+p3{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    color: #18202C;
+    font-weight: bold;
+    display: block;
+}
+a{
+    text-decoration: none;
 }
