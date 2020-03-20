@@ -1,0 +1,446 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.body_div {
+    width: 768px;
+    height: 1195px;
+    position: relative;
+    background: -moz-linear-gradient(-95deg, #0A101A 0%, #394354 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0A101A), color-stop(100%, #394354));
+    text-align: center;
+    overflow: hidden;
+}
+
+.backbutton{
+    width: 90x;
+    height: 90px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 120px;
+    margin-top: 30px;
+}
+
+.infoheader{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.infotxt {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main_header {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    color: #f1f1f1;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.red_header {
+    color: #DF616F;
+}
+
+.first_competition {
+    background-color: #48809A;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.second_competition {
+    margin-top: 70px;
+    background-color: #7F4350;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    margin-bottom: 105px;
+}
+
+.mixit_header {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.border {
+    height: 3.5pt;
+    width: 380px;
+    background-color: #9BF2CB;
+}
+
+.competition_text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f1f1f1;
+    font-size: 25px;
+}
+
+.fearpong_header {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.competition_div {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.join_button {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 3px 25px;
+    text-decoration: none;
+    margin: 0 55px 20px 0;
+    background-color: #232B39;
+}
+
+.winners_button {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 61px;
+    padding: 7px 33px;
+    text-decoration: none;
+    background-color: #DF616F;
+}
+
+/* Scores page starts */
+.kris {
+    width: 340px;
+    border-radius: 30px;
+}
+
+.winner_insta {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -51px;
+    margin-left: -140px;
+}
+
+.photo_text {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.comp_div {
+    background-color: #48809A;
+    width: 100%;
+    height: 210px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 60px;
+}
+
+.comp_winners {
+    height: 120px;
+    width: 650px;
+}
+
+.winner_date {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+}
+
+.winner_name {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: -125%;
+    display: block;
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'lato light';
+    font-size: 360px;
+    line-height: 1;
+    color: #f1f1f1;
+}
+
+.slick-prev {
+    left: -55px;
+}
+
+.slick-prev:before {
+    content: '‹';
+}
+
+.slick-next {
+    right: -55px;
+}
+
+.slick-next:before {
+    content: '›';
+}
+
+
+/* Dots */
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -35px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 7px;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 22px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #f1f1f1;
+    font-size: 70px;
+}
+
+/* Mix-it page */
+
+.coctail_div {
+    height: 500px;
+    background-color: #DF616F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glass {
+    width: 270px;
+}
+
+#full {
+    width: 270px;
+}
+
+.glass_back {
+    width: 159px;
+    position: absolute;
+    left: 305px;
+    top: 106px;
+    background-color: aqua;
+    border-bottom-radius: 50px;
+}
+
+.drink_header {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.spirits {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.juices {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 3px 90px 3px 25px;
+    background-color: #232B39;
+    margin-right: -40px;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 3px 25px 3px 90px;
+    background-color: #232B39;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+
+.your_ingredients {
+    background-color: #48809A;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    min-height: 130px;
+}
+
+
+.form_element {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: transparent;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 10px 30px 7px 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.mixit_button {
+    margin-left: 315px;
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: transparent;
+    border: 3px solid #DF616F;
+    border-radius: 61px;
+    text-decoration: none;
+    padding: 3px 52px;
+   }
+
+.send_button {
+padding: 7px 66px;
+}
+
+.chosen_ingredient {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 3px 2px 3px 15px;
+    background-color: #232B39;
+    margin-bottom: 5px;
+}
+
+.cross {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    background-color: #DF616F;
+    border-radius: 18px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+
+button {
+    outline: none;
+}
+
+
+.img {
+  animation: shake 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
