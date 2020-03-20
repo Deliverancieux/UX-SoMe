@@ -7,9 +7,9 @@
     <meta name="author" content="Your Name">
     <meta name="description" content="Example description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../basics.css">
-    <link rel="stylesheet" href="../CSS/CAH.css">
-    <link rel="stylesheet" href="../CSS/mystyle.css">
+    <link rel="stylesheet" href="../css/basics.css">
+    <link rel="stylesheet" href="../css/CAH.css">
+    <link rel="stylesheet" href="../css/mystyle.css">
     <link rel="icon" type="image/x-icon" href="" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.datedropper.com/get/wjqnjt4k248m8dnz5acapt1im788h1xf"></script>
@@ -19,7 +19,7 @@
     <main>
         <img onclick="goBack()" src="../images/backbutton.png" alt="back button" class="backbutton">
         <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
-        <div class="infobtn" id="infoBtn"><img src="images/info.png" alt="" class="info"></div>
+        <div class="infobtn" id="infoBtn"><img src="../images/info.png" alt="" class="info"></div>
         <div class="infobox" id="infoBox">
 
             <div class="infowrapper" id="infowrp">
@@ -46,35 +46,25 @@
         </div>
         <br>
 
-        <div class="choose_date">
+            
+            
+           <form class="choosedate">
             <div class="name_element">
-                <form action="/action_page.php">
-                     
-                    <input type="text" placeholder="Name..." name="name" class="form_element" name="name"></form>
-
+                    <input type="text" placeholder="Name..." name="name" class="form_element">
             </div>
-            <div class="line">I</div>
 
             <div class="date_element">
-                <form action="/action_page.php">
-
-                    <input type="text" placeholder="Date..." name="name" class="form_element" name="date">
-
-                </form>
+                    <input type="date" name="date" class="form_element">
             </div>
-
-            <div class="line">I</div>
             <div class="time_element">
-                <form action="/action_page.php">
-
-                    <input type="text" placeholder="Time..." name="name" class="form_element" name="time">
-
-                </form>
+                   
+                    <input type="time" placeholder="Time..." name="name" class="time" name="time">
+                    
+                    <input type="time" placeholder="Time..." name="name" class="time" name="time">
+          
             </div>
-        </div>
-        <div class="submit">
-            <input type="Submit" placeholder="Book" name="book">
-        </div>
+            <button type="submit" class="book_button">Book!</button>
+        </form>
 
 
 
