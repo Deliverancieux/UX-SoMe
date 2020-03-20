@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <title>Competitions</title>
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/kris.css">
+    <link rel="stylesheet" href="../css/basics.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="body_div">
+        <img onclick="goBack()" src="../images/backbutton.png" alt="back button" class="backbutton">
+        <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
+
+        <div class="infobtn" id="infoBtn"><img src="../images/info.png" alt="" class="info"></div>
+        <div class="infobox" id="infoBox">
+            <div class="infowrapper" id="infowrp">
+                <div class="infoheader">INFO</div>
+                <div class="infotxt">
+                    Choose 4 ingredients to create your own coctail and name it! The best coctail will be added to our menu!
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <header>
+            <h1 class="main_header">MIX - <span class="red_header">IT</span></h1>
+
+        </header>
+
+        <main>
+            <div class="coctail_div">
+                <div class="spirits" id="spirits">
+                    <h5 class="drink_header">Spirits:</h5>
+                    <button class="ingredients" id="vodka">Vodka</button>
+                    <button class="ingredients" id="rum">Rum</button>
+                    <button class="ingredients" id="whiskey">Whiskey</button>
+                    <button class="ingredients" id="tequila">Tequila</button>
+                    <button class="ingredients" id="gin">Gin</button>
+                    <button class="ingredients" id="brandy">Brandy</button>
+
+                </div>
+
+                <img src="../images/drink.png" alt="glass" class="glass" id="glass">
+
+                <div class="spirits" id="juices">
+                    <h5 class="drink_header">Juices:</h5>
+                    <button class="juices" id="orange">Orange</button>
+                    <button class="juices" id="apple">Apple</button>
+                    <button class="juices" id="cranberry">Cranberry</button>
+                    <button class="juices" id="grape">Grape</button>
+                    <button class="juices" id="ananas">Ananas</button>
+                    <button class="juices" id="tonic">Tonic</button>
+                </div>
+            </div>
+
+            <div class="your_ingredients">
+                <button class="chosen_ingredient orange">Orange <span class="cross cross_orange">&#10005;</span></button>
+                <button class="chosen_ingredient apple">Apple <span class="cross cross_apple">&#10005;</span></button>
+                <button class="chosen_ingredient cranberry">Cranberry <span class="cross cross_cranberry">&#10005;</span></button>
+                <button class="chosen_ingredient grape">Grape <span class="cross cross_grape">&#10005;</span></button>
+                <button class="chosen_ingredient ananas">Ananas <span class="cross cross_ananas">&#10005;</span></button>
+                <button class="chosen_ingredient tonic">Tonic <span class="cross cross_tonic">&#10005;</span></button>
+                <button class="chosen_ingredient vodka">Vodka <span class="cross cross_vodka">&#10005;</span></button>
+                <button class="chosen_ingredient rum">Rum <span class="cross cross_rum">&#10005;</span></button>
+                <button class="chosen_ingredient whiskey">Whiskey <span class="cross cross_whiskey">&#10005;</span></button>
+                <button class="chosen_ingredient tequila">Tequila <span class="cross cross_tequila">&#10005;</span></button>
+                <button class="chosen_ingredient gin">Gin <span class="cross cross_gin">&#10005;</span></button>
+                <button class="chosen_ingredient brandy">Brandy <span class="cross cross_brandy">&#10005;</span></button>
+            </div>
+
+<form class="form">
+                <input type="text" placeholder="Name of the coctail .." name="name" class="form_element" name="email">
+            <button type="submit" class="winners_button send_button">Send!</button>
+            <a href="#" class="mixit_button">Try it now!</a>
+        </form>
+    
+            
+            
+            
+        </main>
+
+        <footer></footer>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+    <script src="../js/kris.js"></script>
+
+</body></html>
