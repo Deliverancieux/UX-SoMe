@@ -67,16 +67,66 @@ main {
 */
 
 
-
-
-.line {
-    width: 2px;
-    height: 15px;
-    color: aliceblue;
-
-
+.choosedate {
+    margin-top: 100px;
 }
 
-choosedate {
-    display: inline-block;
+.time_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_element {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: transparent;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 10px 40px;
+    outline: none;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.time_book {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.time {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    background-color: transparent;
+    border: 3px solid #f1f1f1;
+    border-radius: 61px;
+    padding: 0 20px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.book_button {
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 61px;
+    padding: 7px 33px;
+    text-decoration: none;
+    background-color: #DF616F;
+    outline: none;
+}
+
+.input {
+    outline: none;
 }
