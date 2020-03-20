@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: #F1F1F1;
+    margin-right: 50px;
+}
+p2{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: #F1F1F1;
+    padding: 50px;
+}
+.whitespace{
+    height: 70px;
+}
+p3{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    color: #18202C;
+    font-weight: bold;
+    display: block;
+}
+.darebutton{
+    height: 200px;
+    border-radius: 200px;
+    width: 800px;
+    font-family: 'Source Sans Pro';
+    font-size: 80px;
+    color: #F1F1F1;
+    font-weight: bold;
+    background-color: #DF616F;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 45%;
+    display: inline-block;
+    line-height: 200px;
+}

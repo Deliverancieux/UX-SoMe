@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+section{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin: 25px;
+}
+.number{
+    margin-left: 10%;
+    margin-right: 5%;
+    align-self: center;
+}
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: #F1F1F1;
+    margin-right: 50px;
+}
+p2{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: #F1F1F1;
+    padding: 50px;
+}
+.whitespace{
+    height: 70px;
+}
+p3{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    color: #18202C;
+    font-weight: bold;
+    display: block;
+}
+a{
+    text-decoration: none;
+}

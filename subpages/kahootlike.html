@@ -8,8 +8,9 @@
 	<meta name="description" content="Example description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../basics.css">
-	<link rel="stylesheet" href="../css/gamesfearpong.css">
+	<link rel="stylesheet" href="../css/kahootlike.css">
 	<link rel="icon" type="image/x-icon" href=""/>
+    
 	<script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -29,34 +30,39 @@ something specific?
 Add it to the playlist, to hear your favourite songs!
 </div></div>
 
+        </div>
+    <h1><span>KAHOOT</span>-LIKE</h1>
 
-        <h1>GAMES</h1>
 <div class="grid_container">
-<a href="../subpages/mixit.html">
-    <div class="gameoptionleft mixit">
-    <img src="../images/Mixit.png" class="mixit_image">
-        <p3>Mix it!</p3>
+
+    <div class="fibbage">
+    <img src="../images/fibbage.png" class="game_image" alt="Fibbage">
         </div>
-    </a>
-<a href="../subpages/kahootlike.html">
-    <div class="gameoptionright kahootlike">
-    <img src="../images/kahootlike.png" class="kahootlike_image">
-        <p3>Kahoot-like</p3>
+    
+    <div class="fibbagebutton">
+        <p1>SELECT</p1>
         </div>
-    </a>
-<a href="../subpages/fearpong.html">
-    <div class="gameoptionleft fearpong">
-    <img src="../images/fearpong.png" class="fearpong_image">
-        <p3>Fear Pong</p3>
+    
+    <div class="kahoot">
+    <img src="../images/kahoot.png" class="game_image" alt="Kahoot">
         </div>
-    </a>
-<a href="../subpages/boardgames.html">
-    <div class="gameoptionright boardgames">
-    <img src="../images/boardgames.png" class="boardgames_image">
-        <p3>Board Games</p3>
+    
+    <div class="kahootbutton">
+        <p1>SELECT</p1>
         </div>
-    </a>
+
+<div class="quiplash">
+    <img src="../images/quiplash.png" class="game_image" alt="Quiplash">
+        </div>
+    
+    <div class="quiplashbutton">
+        <p1>SELECT</p1>
+        </div>
+
+
 </div>
+
+    <button class="playnow">PLAY NOW</button>
 
 
 
@@ -121,6 +127,17 @@ Add it to the playlist, to hear your favourite songs!
 function goBack() {
   window.history.back()
 }
+</script>
+<script>
+    $(".fibbagebutton").click(function () {
+   $(this).toggleClass("fibbagebuttonselected");
+});
+    $(".kahootbutton").click(function () {
+   $(this).toggleClass("kahootbuttonselected");
+});
+    $(".quiplashbutton").click(function () {
+   $(this).toggleClass("quiplashbuttonselected");
+});
 </script>
 
 </html>

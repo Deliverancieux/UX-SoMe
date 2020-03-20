@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+main{
+    width: 1195px;
+    height: 768px;
+    position: relative;
+    background: -moz-linear-gradient(-95deg,  #0A101A 0%, #394354 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#0A101A),  color-stop(100%,#394354));
+    text-align: center;
+    overflow: hidden;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.backbutton{
+    width: 90x;
+    height: 90px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 120px;
+    margin-top: 30px;
+    position: absolute;
+    right: 50px;
+}
+.howtoplaybutton{
+    height: 69px;
+    border-radius: 69px;
+    width: 300px;
+    font-family: 'Source Sans Pro';
+    font-size: 35px;
+    color: #F1F1F1;
+    font-weight: bold;
+    background-color: #DF616F;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    display: inline-block;
+    line-height: 69px;
+}
+.infobtn {
+    z-index: 10;
+    cursor: pointer;
+     position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background: #DF616F;
+ text-align: center;
+}
+
+.info {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.infobox {
+
+    width: 600px;
+    height: 220px;
+    background: #DF616F;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 15px 0 0 15px;
+    text-align: left;
+     color: #f1f1f1;
+    padding: 20px 20px;
+
+}
+.infoheader{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.infotxt {
+    width: 80%;
+    font-size: 25px;
+
+}
+.infowrapper {
+    animation: wrap 2s forwards;
+}
+@keyframes wrap {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    color: #F1F1F1;
+    font-weight: bold;
+}
+span{
+    color: #DF616F;
+}
+a{
+    text-decoration: none;
+}

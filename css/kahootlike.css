@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 125px;
+    grid-gap: 50px;
+}
+.fibbage{
+    background-color: #DF616F;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0 5% 0 5%;
+    height: 120px;
+    display: flex;
+}
+.kahoot{
+    background-color: #AF9BF2;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0 5% 0 5%;
+    height: 120px;
+    display: flex;
+}
+.quiplash{
+    background-color: #65CCEF;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0 5% 0 5%;
+    height: 120px;
+    display: flex;
+}
+.game_image{
+    margin: auto;
+    max-height: 100px;
+}
+.fibbagebutton{
+    border-radius: 25px;
+    background-color: #E4E4E4;
+    padding: 0 5% 0 5%;  
+    margin-right: 50px;
+    display: flex;
+    transition: .5s;
+}
+.kahootbutton{
+    border-radius: 25px;
+    background-color: #E4E4E4;
+    padding: 0 5% 0 5%;  
+    margin-right: 50px;
+    display: flex;
+    transition: .5s;
+}
+.quiplashbutton{
+    border-radius: 25px;
+    background-color: #E4E4E4;
+    padding: 0 5% 0 5%;  
+    margin-right: 50px;
+    display: flex;
+    transition: .5s;
+}
+.fibbagebuttonselected{
+    background-color: #DF616F;
+}
+.kahootbuttonselected{
+    background-color: #AF9BF2;
+}
+.quiplashbuttonselected{
+    background-color: #65CCEF;
+}
+.playnow{
+    height: 69px;
+    border-radius: 69px;
+    width: 400px;
+    font-family: 'Source Sans Pro';
+    font-size: 35px;
+    color: #F1F1F1;
+    font-weight: bold;
+    background-color: #DF616F;
+    margin-top: 125px;
+}
+p1{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    color: #18202C;
+    font-weight: bold;
+    margin: auto;
+}
