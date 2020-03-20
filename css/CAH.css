@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 768px;
+    height: 1195px;
+    position: relative;
+    background: -moz-linear-gradient(-95deg, #0A101A 0%, #394354 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0A101A), color-stop(100%, #394354));
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.lines {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.purplebox {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+    margin-left: 60px;
+    background: AF9BF2;
+    border-radius: 20px;
+
+}
+
+.bodytext {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #E4E4E4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    float: right;
+}
+
+
+
+/*.bodytext {
+   background-color: goldenrod;
+    height: 280px;
+    width: 280px;
+    font-size: 25px;
+    color: #E4E4E4;
+    margin-left: 40px;
+    /*display: inline-block;*/
+/* margin-right: 40px;
+    border-radius: 20px;
+    text-align: left;
+}
+*/
+
+
+.choosedate {
+    display: inline-block;
+}
+
+
+.time_element {
+    width: 320px;
+    font-size: 20px;
+}

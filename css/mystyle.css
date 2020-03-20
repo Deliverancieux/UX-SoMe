@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 768px;
+
+    position: relative;
+    background: -moz-linear-gradient(-95deg, #0A101A 0%, #394354 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0A101A), color-stop(100%, #394354));
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.games_container {
+    margin-right: 30px;
+}
+
+.lines {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.game {
+    width: 260px;
+
+
+}
+
+.game2 {
+    width: 260px;
+
+
+}
+
+.game3 {
+    width: 260px;
+
+
+}
+
+.game4 {
+    width: 260px;
+
+
+}
+
+.greenbox {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+
+    margin-left: 40px;
+    background: #9BF2CB;
+    border-radius: 20px;
+}
+
+.purplebox {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+
+    margin-left: 40px;
+    background: #AF9BF2;
+    border-radius: 20px;
+}
+
+.redbox {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+
+    margin-left: 40px;
+    background: #DF616F;
+    border-radius: 20px;
+}
+
+
+.bluebox {
+    height: 280px;
+    width: 280px;
+    display: inline-block;
+
+    margin-left: 40px;
+    background: #65CCEF;
+    border-radius: 20px;
+}
